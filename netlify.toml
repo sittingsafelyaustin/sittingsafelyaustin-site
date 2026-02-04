@@ -1,0 +1,6 @@
+[build]
+  publish = "."    # publish from repository root
+  command = ""     # no build step; static HTML
+
+[context.production.environment]
+  # Add environment variables here if you later need them (e.g., API keys).
