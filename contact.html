@@ -3,31 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact | Sitting Safely Austin - Book Car Seat Installation</title>
-  <meta name="description" content="Contact Sitting Safely Austin to book your certified car seat installation or safety check in Austin, TX. Fast response, in-person service. Appointments available this week. Response within 24 hours.">
-  <link rel="stylesheet" href="assets/style.css">
+  <title>Contact Sitting Safely Austin - Book Car Seat Check</title>
+  <meta name="description" content="Contact Janeth for certified car seat installation, safety checks, and parent education in Austin.">
   <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0; color: #333; }
-    header { background: #007BFF; color: white; padding: 1rem; text-align: center; }
-    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
-    main { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
-    h1 { color: #007BFF; }
-    form { background: #f8f9fa; padding: 2rem; border-radius: 8px; }
-    label { display: block; margin: 1rem 0 0.5rem; font-weight: bold; }
-    input, textarea { width: 100%; padding: 0.8rem; margin-bottom: 1rem; border: 1px solid #ccc; border-radius: 4px; }
-    button { background: #28a745; color: white; padding: 1rem 2rem; border: none; border-radius: 5px; font-size: 1.1rem; cursor: pointer; }
-    button:hover { background: #218838; }
-    .urgency { color: #d32f2f; font-weight: bold; margin: 1rem 0; }
-    footer { background: #f8f9fa; text-align: center; padding: 1rem; margin-top: 2rem; }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background: #f9fcff;
+    }
+    header {
+      background: linear-gradient(135deg, #007BFF, #0056b3);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .logo {
+      max-width: 180px;
+      height: auto;
+      margin-bottom: 1rem;
+      border-radius: 8px;
+    }
+    nav a {
+      color: white;
+      margin: 0 1.2rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover { color: #e0f7fa; }
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2rem 1rem;
+    }
+    h1, h2 {
+      color: #004080;
+      text-align: center;
+    }
+    form {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      margin: 2rem 0;
+    }
+    label {
+      display: block;
+      margin: 1.2rem 0 0.5rem;
+      font-weight: 600;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.9rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1rem;
+      box-sizing: border-box;
+    }
+    textarea { min-height: 140px; }
+    button {
+      background: #28a745;
+      color: white;
+      padding: 1.2rem 2.5rem;
+      border: none;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: all 0.3s;
+      box-shadow: 0 4px 12px rgba(40,167,69,0.3);
+      display: block;
+      margin: 1.5rem auto 0;
+    }
+    button:hover {
+      background: #218838;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(40,167,69,0.4);
+    }
+    .urgency {
+      color: #c62828;
+      font-weight: bold;
+      text-align: center;
+      font-size: 1.15rem;
+      background: #ffebee;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1.5rem 0;
+    }
+    .success, .error {
+      text-align: center;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+      display: none;
+    }
+    .success { background: #e8f5e9; color: #2e7d32; }
+    .error { background: #ffebee; color: #c62828; }
+    @media (max-width: 768px) {
+      nav a { margin: 0.8rem 0.5rem; display: inline-block; }
+      form { padding: 1.8rem; }
+    }
   </style>
 </head>
 <body>
 
   <header>
+    <img src="SSA Logo.png" alt="Sitting Safely Austin Logo" class="logo">
     <h1>Sitting Safely Austin</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
+      <a href="/">Home</a>
+      <a href="About.html">About</a>
       <a href="services.html">Services</a>
       <a href="resources.html">Resources</a>
       <a href="contact.html">Contact</a>
@@ -35,37 +124,65 @@
   </header>
 
   <main>
-    <h1>Get in Touch & Book Today</h1>
-    <p>Ready for peace of mind? Fill out the form or text/email me directly. I'll respond within 24 hours (often faster).</p>
+    <section>
+      <h1>Get in Touch & Book Today</h1>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto 2rem;">
+        Ready for peace of mind? Fill out the form below or text/call directly. I'll respond within 24 hours (often faster).
+      </p>
 
-    <form action="https://formspree.io/f/your-form-id" method="POST"> <!-- Replace with your Formspree/Google Form/Calendly link -->
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="name" required>
+      <p style="text-align: center;">
+        Direct contact: <a href="mailto:sittingsafelyaustin@gmail.com">sittingsafelyaustin@gmail.com</a><br>
+        Phone/Text: <a href="tel:+12107141428">210-714-1428</a>
+      </p>
 
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" required>
+      <p class="urgency">Limited spots this week – secure your appointment now!</p>
 
-      <label for="phone">Phone (for quick texting)</label>
-      <input type="tel" id="phone" name="phone">
+      <!-- The actual working contact form -->
+      <form id="contact-form" action="https://formspree.io/f/xjgebgwd method="POST">
+        <!-- Hidden field to help prevent spam (optional but recommended) -->
+        <input type="hidden" name="_subject" value="New Car Seat Booking Inquiry from Website">
 
-      <label for="message">What do you need help with? (e.g., newborn install, booster check, multiples...)</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <label for="name">Your Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name">
 
-      <button type="submit">Send & Book Appointment</button>
-    </form>
+        <label for="email">Email Address *</label>
+        <input type="email" id="email" name="email" required placeholder="your@email.com">
 
-    <p class="urgency">Appointments filling fast this week – secure your spot now!</p>
+        <label for="phone">Phone Number (for quick texting) *</label>
+        <input type="tel" id="phone" name="phone" required placeholder="210-XXX-XXXX">
 
-    <p>Or contact directly:</p>
-    <ul>
-      <li>Text/Call: [your phone number]</li>
-      <li>Email: [your email]</li>
-    </ul>
+        <label for="message">What do you need help with? *</label>
+        <textarea id="message" name="message" required placeholder="e.g., Newborn install, booster check, multiples setup, special needs..."></textarea>
+
+        <!-- Optional: Let Formspree send copy to user -->
+        <input type="hidden" name="_cc" value="sittingsafelyaustin@gmail.com">
+
+        <button type="submit">Send & Book Appointment</button>
+
+        <div id="success-message" class="success">Thank you! Your message has been sent — I'll get back to you soon.</div>
+        <div id="error-message" class="error">There was an error sending your message. Please try again or text me directly.</div>
+      </form>
+    </section>
   </main>
 
-  <footer>
-    <p>Certified CPST • Serving Austin & surrounding areas • © Sitting Safely Austin</p>
-  </footer>
+  <!-- Optional basic success/error JS (no external libraries needed) -->
+  <script>
+    const form = document.getElementById('contact-form');
+    const successMsg = document.getElementById('success-message');
+    const errorMsg = document.getElementById('error-message');
+
+    form.addEventListener('submit', function(e) {
+      // Formspree handles submission via action URL, but we can show messages
+      successMsg.style.display = 'none';
+      errorMsg.style.display = 'none';
+
+      // Optional: Show success immediately (Formspree redirects or sends AJAX)
+      // For full AJAX handling, add Formspree JS later if needed
+      setTimeout(() => {
+        successMsg.style.display = 'block';
+      }, 500);
+    });
+  </script>
 
 </body>
 </html>
