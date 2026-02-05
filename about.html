@@ -59,6 +59,16 @@
       margin: 0 auto;
       text-align: center;
     }
+    .headshot {
+      max-width: 320px;          /* controls the size - adjust this number if needed */
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+      border: 6px solid #e3f2fd;
+      box-shadow: 0 8px 25px rgba(0,123,255,0.2);
+      margin: 1.5rem auto;
+      display: block;
+    }
     .cta {
       background: #28a745;
       color: white;
@@ -95,13 +105,14 @@
       nav a { margin: 0.8rem 0.5rem; display: inline-block; }
       h1 { font-size: 2rem; }
       .section { padding: 1.5rem; }
+      .headshot { max-width: 280px; }
     }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="SSA Logo.png" alt="Sitting Safely Austin Logo" class="logo">
+    <img src="assets/SSA Logo.png" alt="Sitting Safely Austin Logo" class="logo">
     <h1>Sitting Safely Austin</h1>
     <nav>
       <a href="/">Home</a>
@@ -112,12 +123,12 @@
     </nav>
   </header>
 
-  <img src="happy baby safe in car seat.jpg" alt="Happy baby safe in car seat" class="hero-image">
-
   <main>
     <section class="section">
       <h1>About Sitting Safely Austin</h1>
       <div class="bio">
+        <img src="assets/janeth-headshot.jpg" alt="Janeth, Certified Child Passenger Safety Technician" class="headshot">
+
         <p>Hi, I'm Janeth — a certified Child Passenger Safety Technician (CPST) with years of hands-on experience helping Austin-area families keep their children safe on the road.</p>
 
         <p>My journey started at a local fire department as an outreach coordinator. First responders were seeing far too many preventable crashes where children were not properly restrained. Determined to make a real difference, I became a certified CPST and created a community initiative that provided free car seats and safety education to families who needed them most.</p>
