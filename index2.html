@@ -7,37 +7,34 @@
   <meta name="description" content="In-person car seat installation, safety checks, and parent education by certified CPST in Austin, TX. Book today for peace of mind.">
   <style>
     body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.7; margin: 0; padding: 0; color: #333; background: #f9fcff; }
-    header { background: linear-gradient(135deg, #007BFF, #0056b3); color: white; text-align: center; padding: 2.5rem 1rem; box-shadow: 0 6px 15px rgba(0,0,0,0.1); }
-    .logo { max-width: 200px; height: auto; margin-bottom: 1rem; border-radius: 12px; }
+    header { background: linear-gradient(135deg, #007BFF, #0056b3); color: white; text-align: center; padding: 2rem 1rem; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    .logo { max-width: 180px; height: auto; margin-bottom: 1rem; border-radius: 8px; }
     nav { margin-top: 1rem; }
-    nav a { color: white; margin: 0 1.5rem; text-decoration: none; font-weight: 600; transition: color 0.3s; }
+    nav a { color: white; margin: 0 1.2rem; text-decoration: none; font-weight: 600; transition: color 0.3s; }
     nav a:hover { color: #e0f7fa; }
     main { max-width: 1200px; margin: 0 auto; padding: 2rem 1rem; }
-    h1, h2 { color: #004080; text-align: center; margin-bottom: 2rem; }
-    .hero { text-align: center; margin-bottom: 4rem; }
-    .hero img { max-width: 100%; border-radius: 16px; box-shadow: 0 10px 30px rgba(0,123,255,0.15); margin: 2rem 0; }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2.5rem; margin: 3rem 0; }
-    .card { background: white; border-radius: 16px; overflow: hidden; box-shadow: 0 8px 25px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; text-decoration: none; color: inherit; }
-    .card:hover { transform: translateY(-8px); box-shadow: 0 15px 35px rgba(0,0,0,0.15); }
-    .card img { width: 100%; height: 220px; object-fit: cover; }
-    .card-content { padding: 1.8rem; text-align: center; }
-    .card h3 { margin: 0 0 1rem; color: #007BFF; }
-    .cta { background: #28a745; color: white; padding: 1.3rem 3rem; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.2rem; display: inline-block; margin: 2rem auto; transition: all 0.3s; box-shadow: 0 6px 18px rgba(40,167,69,0.3); }
-    .cta:hover { background: #218838; transform: translateY(-4px); box-shadow: 0 12px 30px rgba(40,167,69,0.4); }
-    .urgency { color: #c62828; font-weight: bold; text-align: center; font-size: 1.2rem; background: #ffebee; padding: 1.2rem; border-radius: 12px; margin: 2rem 0; max-width: 700px; margin-left: auto; margin-right: auto; }
-    .as-seen { text-align: center; margin: 5rem 0 3rem; padding: 2rem; background: white; border-radius: 16px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
-    .as-seen img { max-height: 60px; margin: 0 1.5rem 1rem; filter: grayscale(50%); transition: filter 0.3s; }
-    .as-seen img:hover { filter: grayscale(0%); }
-    @media (max-width: 768px) { nav a { margin: 0.6rem; display: inline-block; font-size: 0.95rem; } .grid { grid-template-columns: 1fr; } }
+    h1, h2 { color: #004080; text-align: center; margin-bottom: 1.5rem; }
+    .section { margin: 3rem 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+    .card { background: white; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); overflow: hidden; transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .card img { width: 100%; height: 200px; object-fit: cover; }
+    .card-content { padding: 1.5rem; text-align: center; }
+    .cta { background: #28a745; color: white; padding: 1.2rem 2.5rem; border-radius: 50px; text-decoration: none; font-weight: bold; font-size: 1.1rem; display: inline-block; transition: all 0.3s; box-shadow: 0 4px 12px rgba(40,167,69,0.3); }
+    .cta:hover { background: #218838; transform: translateY(-3px); box-shadow: 0 8px 20px rgba(40,167,69,0.4); }
+    .urgency { color: #c62828; font-weight: bold; text-align: center; font-size: 1.15rem; background: #ffebee; padding: 1rem; border-radius: 8px; margin: 1.5rem 0; }
+    .as-seen { text-align: center; margin: 4rem 0; }
+    .as-seen img { max-height: 50px; margin: 0 1rem; }
+    @media (max-width: 768px) { nav a { margin: 0.8rem 0.5rem; display: block; } .grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
 
   <header>
-    <img src="assets/SSA Logo.png" alt="Sitting Safely Austin Logo" class="logo">
+    <img src="SSA Logo.png" alt="Sitting Safely Austin Logo" class="logo">
     <h1>Sitting Safely Austin</h1>
     <nav>
-      <a href="index.html">Home</a>
+      <a href="/">Home</a>
       <a href="About.html">About</a>
       <a href="services.html">Services</a>
       <a href="resources.html">Resources</a>
@@ -46,47 +43,51 @@
   </header>
 
   <main>
-    <section class="hero">
-      <h1>Expert Car Seat Installation & Safety Checks in Austin</h1>
-      <p>Certified CPST providing personalized, in-person help for newborns to boosters. Drive with total confidence.</p>
-      <img src="assets/hero-1200.jpg" alt="Family safe in car with child seats">
-      <a href="contact.html" class="cta">Book Your Appointment Today</a>
-      <p class="urgency">Limited spots this week – response within 24 hours</p>
+    <section class="section">
+      <h1>Austin Car Seat Installation & Safety Checks by a Certified CPST</h1>
+      <p>In-person car seat installation, safety checks, and parent education for Austin families. Leave with a correctly installed seat and total peace of mind.</p>
+      <img src="assets/happy-toddler-car-seat.jpg" alt="Happy child safe in car seat" style="max-width:600px; border-radius:20px; display:block; margin:2rem auto;">
+      <a href="contact.html" class="cta">Book Your Car Seat Check</a>
+      <p style="text-align:center; margin-top:1rem;">
+        ✔ Certified Child Passenger Safety Technician<br>
+        ✔ Serving Austin & surrounding areas<br>
+        ✔ Newborn to booster seat support
+      </p>
     </section>
 
     <section class="section">
-      <h2>Why Families Choose Sitting Safely Austin</h2>
+      <h2>Why Choose Sitting Safely Austin</h2>
       <div class="grid">
         <div class="card">
-          <img src="assets/janeth-headshot.jpg" alt="Janeth, Certified CPST">
+          <img src="assets/expert-installation.jpg" alt="Expert installing car seat">
           <div class="card-content">
-            <h3>Certified Expertise</h3>
-            <p>Hands-on experience from Dell Children's Kids in Cars program and hundreds of checks.</p>
+            <h3>Expert Guidance</h3>
+            <p>Certified CPST with hands-on experience from Dell Children's and fire dept initiatives.</p>
           </div>
         </div>
         <div class="card">
-          <img src="assets/happy baby safe in car seat.jpg" alt="Happy baby safe in car seat">
+          <img src="assets/family-safety.jpg" alt="Happy family with safe kids">
           <div class="card-content">
-            <h3>Personalized Support</h3>
-            <p>Tailored for newborns, multiples, special needs, and Texas vehicle fits.</p>
+            <h3>Family-Focused Support</h3>
+            <p>Personalized help for newborns, multiples, special needs, and Texas laws.</p>
           </div>
         </div>
         <div class="card">
-          <img src="assets/kids in seats.jpg" alt="Happy kids in car seats">
+          <img src="assets/community-events.jpg" alt="Community car seat check">
           <div class="card-content">
-            <h3>Community Focused</h3>
-            <p>Low-income support, free events, and partnerships with TxDOT & Safe Kids.</p>
+            <h3>Community Commitment</h3>
+            <p>Free events, low-income aid, and partnerships with TxDOT and Safe Kids.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="as-seen">
+    <section class="section">
       <h2>As Seen In</h2>
-      <div>
-        <img src="assets/idIW8JBUbv_logos.jpeg" alt="FOX 7 Austin">
+      <div class="as-seen">
+        <img src="assets/fox7-logo.png" alt="FOX 7 Austin">
         <img src="assets/txdot-logo.png" alt="TxDOT">
-        <img src="assets/safekidslogo.jpg" alt="Safe Kids">
+        <img src="assets/safekids-logo.png" alt="Safe Kids">
       </div>
     </section>
   </main>
