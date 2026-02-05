@@ -1,28 +1,116 @@
-<section>
-  <h1>About Sitting Safely Austin</h1>
-  <div class="bio">
-    <p>Hi, I'm Janeth — a certified Child Passenger Safety Technician (CPST) with years of hands-on experience helping Austin-area families keep their children safe on the road.</p>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #f9fcff; /* very light blue tint for calm feel */
+}
 
-    <p>My journey started at a local fire department as an outreach coordinator. First responders were seeing too many heartbreaking crashes where children weren't properly restrained. I knew we could do better. So I became a certified CPST and launched a community initiative that provided free car seats and education to families who needed them most. That work opened my eyes to the real gaps in child passenger safety — and I never looked back.</p>
+header {
+  background: linear-gradient(135deg, #007BFF, #0056b3); /* richer blue gradient */
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
 
-    <p>From there, I joined the Kids in Cars program at Dell Children's Medical Center (part of Ascension Seton), where I served as a program coordinator. I performed hundreds of seat checks, became specially trained in special needs installations, led Safe Kids certification trainings for new technicians, and collaborated with TxDOT on car seat check events across Central Texas. I covered Bastrop, Caldwell, Hays, Travis, and Williamson counties — delivering hands-on help, parent education, and even sharing safety tips through PSAs on FOX 7 Austin.</p>
+.logo {
+  max-width: 180px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px; /* soft corners */
+}
 
-    <p>Today, through Sitting Safely Austin, I bring that same dedication and expertise directly to you — personalized, no-rush appointments at your home or a convenient location. Whether you're installing a newborn rear-facing seat, transitioning to a booster, managing multiples, or navigating special needs accommodations, I'm here to make sure your child rides safely and you feel confident every time you buckle up.</p>
+nav a {
+  color: white;
+  margin: 0 1.2rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
 
-    <p>Safety isn't just my job — it's my passion. Let's work together to give your family the peace of mind they deserve.</p>
+nav a:hover {
+  color: #e0f7fa;
+}
 
-    <a href="contact.html" class="cta">Ready to Get Started? Book Your Appointment</a>
-  </div>
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
 
-  <!-- New Media Section -->
-  <section class="media-section" style="margin-top: 3rem; text-align: center;">
-    <h2>Media & Community Appearances</h2>
-    <p>I've been proud to share car seat safety tips through local news and events. Here are some highlights:</p>
-    <ul style="list-style: none; padding: 0; max-width: 700px; margin: 1rem auto; text-align: left;">
-      <li>• FOX 7 Austin PSA on spotting counterfeit car seats and safe choices for your family — <a href="https://www.fox7austin.com/video/1281293" target="_blank">Watch here</a> (or search FOX 7 Austin car seat safety segments featuring Janeth Herrera)</li>
-      <li>• Collaboration with TxDOT and Dell Children's on statewide car seat safety education — <a href="https://www.youtube.com/watch?v=vzASSGu8JPE" target="_blank">View the partnership video</a></li>
-      <li>• Community events and trainings with Safe Kids Austin and Dell Children's Kids in Cars program</li>
-    </ul>
-    <p>More videos and features coming soon — stay tuned or reach out if you'd like recommendations on reliable resources!</p>
-  </section>
-</section>
+h1, h2 {
+  color: #004080; /* deeper blue for authority */
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.section {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta {
+  background: #28a745;
+  color: white;
+  padding: 1.2rem 2.5rem;
+  border-radius: 50px; /* pill shape for modern */
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  display: inline-block;
+  transition: all 0.3s;
+  box-shadow: 0 4px 12px rgba(40,167,69,0.3);
+}
+
+.cta:hover {
+  background: #218838;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(40,167,69,0.4);
+}
+
+.urgency {
+  color: #c62828;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.15rem;
+  background: #ffebee;
+  padding: 1rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+img.headshot {
+  max-width: 320px;
+  border-radius: 50%;
+  border: 6px solid #e3f2fd;
+  box-shadow: 0 8px 25px rgba(0,123,255,0.2);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin: 1rem 0;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  .flex { flex-direction: column; text-align: center; }
+  nav a { margin: 0.8rem 0.5rem; display: inline-block; }
+  h1 { font-size: 2rem; }
+}
