@@ -1,5 +1,7 @@
 # Hero image upload & optimization instructions
 
+<img src="assets/cute-baby-car-seat.jpg" alt="Happy baby safe in car seat" class="hero-image">
+
 Required filenames (exact names):
 - hero-1200.jpg  (1200px width)
 - hero-800.jpg   (800px width)
